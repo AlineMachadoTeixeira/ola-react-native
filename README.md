@@ -20,7 +20,7 @@ https://expo.dev/
   espere instalar
 
 - cd nome-do-meu-app entre
-- `npx expo start`
+- `npx expo start` -`npm start`
 
 baixe o aplicativo no seu celular chamado: expo go e tive a foto do QR code que apareceu no terminal (pode fazer uma conta)
 
@@ -36,3 +36,14 @@ Npx significa  instalar e executar
 - Android SDK
 - Java JDK
 - Imagem Android para emuladpr
+
+#### Para abrir emulador no navegador
+
+- Android Studio
+- `npm start` ou `npx expo start`
+- depois a letra `a`
+
+#### Para parar o emulador no navegador
+
+- ctrl C
+- para voltar `npm start` e a letra `a`

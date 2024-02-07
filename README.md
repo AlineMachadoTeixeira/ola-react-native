@@ -26,7 +26,7 @@ baixe o aplicativo no seu celular chamado: expo go e tive a foto do QR code que 
 
 se o aplicativo cair digite no terminal a letra r
 
-se vc sair com ctrl C e querer entra digite npx expo start ou npm expo
+se vc sair com ctrl C e querer entrar novamente. Digite npx expo start ou npm expo
 
 Npx significa  instalar e executar
 

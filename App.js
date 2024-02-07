@@ -3,10 +3,10 @@ import {
   Button,
   SafeAreaView,
   StatusBar,
-  StyleSheet,
   Text,
   View,
 } from "react-native";
+import estilos from "./src/stylesheets/estilo";
 
 export default function App() {
   const vai = () => {
@@ -19,17 +19,17 @@ export default function App() {
       <SafeAreaView style={estilos.container}>
         {/* Topo/Cabeçalho... */}
         <View style={estilos.cabecalho}>
-          <Text>Topo/Cabeçalho...</Text>
+          <Text style={estilos.tituloCabecalho}>Topo/Cabeçalho...</Text>
         </View>
 
         {/* Conteúdo... ... */}
         <View style={estilos.conteudo}>
-          <Text>Conteúdo... </Text>
+          <Text style={estilos.subtituloConteudo}>Conteúdo... </Text>
         </View>
 
         {/* Rodapé... */}
         <View style={estilos.rodape}>
-          <Text>Rodapé...</Text>
+          <Text style={estilos.textoRodape}>Rodapé...</Text>
           {/* onPress={} tipo onClick  */}
           <Button title="Toca aqui!!!" onPress={vai} />
         </View>
@@ -37,27 +37,3 @@ export default function App() {
     </>
   );
 }
-
-const estilos = StyleSheet.create({
-  container: {
-    backgroundColor: "#cee7fe",
-    flex: 1,
-    /* justifyContent: "center",
-    flexDirection: "row" // padrão é coluna*/
-  },
-
-  cabecalho: {
-    backgroundColor: "#a8bccf",
-    flex: 1,
-  },
-
-  conteudo: {
-    backgroundColor: "#8493a2",
-    flex: 4,
-  },
-
-  rodape: {
-    backgroundColor: "#626c76",
-    flex: 0.7,
-  },
-});

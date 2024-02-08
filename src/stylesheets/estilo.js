@@ -2,28 +2,31 @@ import { StyleSheet } from "react-native";
 
 const estilos = StyleSheet.create({
   container: {
-    backgroundColor: "#cee7fe",
+    backgroundColor: "#f0f8ff",
     flex: 1,
     /* justifyContent: "center",
       flexDirection: "row" // padrão é coluna*/
-    // fontFamily: " sans-serif",
+    // fontFamily: " sans-serif" f0f8ff,
   },
 
+  /* Começo Cabecalho */
   cabecalho: {
-    backgroundColor: "#add8e6",
-    flex: 1,
+    backgroundColor: "#81baef",
+    flex: 0.6,
     justifyContent: "center",
   },
 
-  tituloCabecalho: {
+  titulo: {
     color: "#191970",
     fontWeight: "bold",
     textAlign: "center",
     fontSize: 22,
   },
+  /* Fim Cabecalho */
 
+  /* Começo Ccteudo */
   conteudo: {
-    backgroundColor: "#f0f8ff",
+    backgroundColor: "#cee7fe",
     flex: 4,
     width: "90%",
     marginLeft: "auto",
@@ -33,21 +36,31 @@ const estilos = StyleSheet.create({
     borderRadius: 10,
   },
 
-  subtituloConteudo: {
+  subtitulo: {
     color: "#311801",
-    padding: 10,
     textAlign: "center",
   },
 
+  texto: {
+    marginTop: 16,
+    paddingLeft: 5,
+    paddingBottom: 5,
+  },
+
+  /* Fim Conteudo */
+
+  /* Começo Rodapé */
   rodape: {
-    backgroundColor: "#b8cad4",
+    backgroundColor: "#81baef",
     flex: 0.7,
   },
+
   textoRodape: {
     color: "#191970",
     textAlign: "center",
     textTransform: "uppercase",
   },
+  /* Fim Rodapé */
 });
 
 export default estilos;
